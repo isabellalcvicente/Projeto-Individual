@@ -312,6 +312,11 @@ textarea {
 button {
     color: #65322a;
     background-color: #cfb0a5;
+
+}
+
+footer {
+    margin: 20px;
 }
 
 @media (min-width:767px) and (max-width:1200px){
@@ -387,4 +392,5 @@ button {
 
     footer {
         color: #65322a;
+        margin: 20px ;
     } 
