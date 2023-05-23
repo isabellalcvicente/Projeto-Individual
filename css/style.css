@@ -1,0 +1,390 @@
+/* HEADER ------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fbdacb;
+}
+
+nav {
+    background-color: #af8576;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: #fefafa;
+
+}
+
+
+
+@media (min-width:767px) and (max-width:1200px) {
+
+    /* tablet */
+    nav {
+        background-color: #af8576;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto Slab', serif;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    /* celular */
+    nav {
+        background-color: #af8576;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto Slab', serif;
+        font-size: small;
+    }
+
+
+}
+
+
+
+/* MAIN ------------------------------------------------------- */
+/* SECTION 1 -------------------------------------------------- */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+.section1_sobre_mim {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    color: #65322a;
+    padding: 15px 12px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right {
+    border: 4px solid #65322a;
+    border-radius: 40px 40px 40px 40px;
+    /* borda arrendondada */
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:767px) and (max-width:1200px) {
+
+    /* tablet */
+    .left {
+        color: #65322a;
+        padding: 15px 12px;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        gap: 20px;
+    }
+
+    .right {
+        border: 4px solid #65322a;
+        border-radius: 40px 40px 40px 40px;
+        /* borda arrendondada */
+        margin: 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:767px) {
+
+    /* celular */
+    .left {
+        color: #65322a;
+        padding: 15px 12px;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        gap: 25px;
+    }
+
+    .right {
+        border: 4px solid #65322a;
+        border-radius: 40px 40px 40px 40px;
+        /* borda arrendondada */
+        margin: 20px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* SECTION 2 -------------------------------------------------- */
+
+.section2_hobbies {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.titulo_hobbies {
+    color: #65322a;
+    margin: 20px;
+    display: inline;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.img_hobbies {
+    border: 4px solid #65322a;
+    border-radius: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 80%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.texto_hobbies {
+    color: #65322a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+@media (min-width:767px) and (max-width:1200px) {
+
+    .section2_hobbies {
+
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+
+    .titulo_hobbies {
+        color: #65322a;
+        margin: 15px;
+        display: inline;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+
+    .img_hobbies {
+        border: 4px solid #65322a;
+        border-radius: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 60%;
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    }
+
+    .texto_hobbies {
+        color: #65322a;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px;
+        gap: 15px;
+        font-size: small;
+    }
+}
+
+
+@media (max-width:767px) {
+    .section2_hobbies {
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+
+    .titulo_hobbies {
+        color: #65322a;
+        margin: 15px;
+        display: inline;
+        width: 100%;
+        justify-content: center;
+        font-size: small;
+
+    }
+
+
+    .img_hobbies {
+        border: 4px solid #65322a;
+        border-radius: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 50%;
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    }
+
+    .texto_hobbies {
+        color: #65322a;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 10px;
+        font-size: smaller;
+    }
+}
+
+
+
+
+
+
+
+/* SECTION 3 ---------------------------------------------------------------- */
+
+fieldset {
+    margin: 20px;
+}
+
+.nome,
+.email,
+.mensagem,
+.fale_comigo {
+    color: #65322a;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    color: #65322a;
+    background-color: #cfb0a5;
+}
+
+@media (min-width:767px) and (max-width:1200px){
+    fieldset {
+        height: 40%;
+        margin: 20px;
+    }
+
+    .fale_comigo {
+        font-size: small;
+    }
+
+    .nome,
+    .email,
+    .mensagem,
+    .fale_comigo {
+        color: #65322a;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: x-small;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        height: 60px;
+    }
+
+    button {
+        color: #65322a;
+        background-color: #cfb0a5;
+        font-size: x-small;
+    }
+
+}
+    @media (max-width:767px) {
+        fieldset {
+            height: 40%;
+            margin: 20px;
+        }
+
+        .nome,
+        .email,
+        .mensagem,
+        .fale_comigo {
+            color: #65322a;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            font-size: x-small;
+        }
+
+        textarea {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 40px;
+        }
+
+        button {
+            color: #65322a;
+            background-color: #cfb0a5;
+            font-size: x-small;
+        }
+    }
+
+
+    /* FOOTER ------------------------------------------------------------ */
+
+    footer {
+        color: #65322a;
+    } 
