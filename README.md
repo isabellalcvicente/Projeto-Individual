@@ -20,3 +20,6 @@ Depois, criei a 2a section para colocar a coletânea de imagens, tive que coloca
 Na 3a section, fiz um formulário simples, com fildset e 3 divs para cada partezinha do formulário, fazendo um input e um button. Na parte da mensagem, o textarea é para definir uma área maior, mas tinha estilizado direito na tag, vi que estava errado e apaguei a estilização para colocar tudo no css. No footer, fiz só um reservado à mim, bem simples.
 
 [CSS] Separei o css em partes, fazendo comentários de local (header, main, section etc), para não confundir. O começo fiz uma configuração padrão, fui estilizando e terminei cada parte com a responsividade.
+
+
+Obs: Tive que recriar um novo repositório no GitHub, pois deu um bug e o perdi online, no final consegui recriar tudo certinho. 
