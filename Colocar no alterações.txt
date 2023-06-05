@@ -1,16 +1,18 @@
 Colocar no alterações: 
 
+HTML
 -tirei 2 links de fontes do head
--troquei o 2o e o 3o nomes de ids do nav, sendo o 2o dada da div p titulo_hobbies, para a section da hobbies. e na 2a id, eu retirei do form e coloquei na 3a section 
--retirado div da img da section1, pois n havia necessidade
+-troquei o 2o e o 3o nomes de ids do nav, sendo o 2o id dada da div class titulo_hobbies, para a section da hobbies. E na 2a id, eu a retirei do form e coloquei na 3a section 
+-retirado div da img da section1, pois não havia necessidade
 -retirado divs de todas as imgs dos hobbies, pois já tinham a mesma classe e englobei tudo na section2_hobbies
 -retirei a div do texto_hobbies
--retirei as divs do form q n tinham necessidade e os botoes extras
+-retirei as divs do form q não tinham necessidade e também os botões extras
 
 CSS
 -tirei duas fontes do css
--integrei color, margin e width na section 2 do titulo hobbies q era antes
--na img hobbies eu tirei o display e o flex-direction, e add o height 
-- retirei o texto hobbies pq no html integrei ele dentro da section 
+-integrei color, margin e width do titulo hobbies na section 2 
+-na img hobbies eu tirei o display e o flex-direction, e adicionei o height 
+-retirei o texto hobbies pq no html integrei ele dentro da section 
 -tirei as classes dos labels e integrei tudo no fielset
-- tirei a estilização do footer q estava no lugar errado e coloquei no lugar certo
+-tirei a estilização do footer que estava no lugar errado e coloquei no lugar certo
+-depois, repassei as alterações na responsividade
