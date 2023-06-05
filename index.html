@@ -6,28 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- linkagem css -->
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
+    <!-- fonte -->
     <title>Dev Isabella Vicente</title>
 </head>
 
 <body>
     <header>
         <nav>
-
+            <!-- linkagem com as sections na mesma página -->
             <a href="#section1_sobre_mim">Quem sou eu? </a>
-            <a href="#titulo_hobbies">Hobbies e interesses</a>
-            <a href="#formulario">Fale comigo!</a>
+            <a href="#section2_hobbies">Hobbies e interesses</a>
+            <a href="#section3_formulario">Fale comigo!</a>
 
         </nav>
     </header>
 
     <main>
+        <!-- conteúdo principal -->
         <section id="section1_sobre_mim" class="section1_sobre_mim">
+            <!-- criado uma id e uma class para linkar e estilizar -->
             <div class="left">
+                <!-- criado div com class left, pois não dá para estilizar na section uma parte da esquerda e uma da direita, iria estilizar tudo no mesmo sentido -->
                 <h2>Quem é Isabella Vicente?</h2>
                 <p> Hey, meu nome é Isabella Vicente e sou uma dev em formação, que sonha com uma carreira criativa e
                     livre. Atualmente,
@@ -45,36 +48,19 @@
                 </p>
 
             </div>
-
-            <div>
-                <img class="right" src="./imagens/euisa.JPG"
-                    alt="foto de Isabella Vicente fazendo a mão do rock, ela é careca com estrelas pintadas">
-            </div>
-
-
-        </section>
-
-        <div id="titulo_hobbies" class="titulo_hobbies">
-            <h2>Meus hobbies e interesses</h2>
-        </div>
-
-        <section class="section2_hobbies">
-
-            <div>
-                <img class="img_hobbies" src="./imagens/boneca.jpeg" alt="foto da Anne with an E em amigurumi">
-            </div>
-            <div>
-                <img class="img_hobbies" src="./imagens/cactos.jpeg"
-                    alt="foto de cactos diversos, entre eles há cactos de crochê">
-            </div>
-            <div>
-                <img class="img_hobbies" src="./imagens/eu_estrelas.jpeg"
-                    alt="foto de Isabella Vicente careca com estrelas pintadas">
-            </div>
+            <!-- retirei a div que tinha aqui, pois vi que não tinha necessidade de ter já que a img já tinha a classe right para estilizar separado -->
+            <img class="right" src="./imagens/euisa.JPG"
+                alt="foto de Isabella Vicente fazendo a mão do rock, ela é careca com estrelas pintadas">
         </section>
 
 
-        <div class="texto_hobbies">
+        <section id="section2_hobbies" class="section2_hobbies">
+            <h2>Meus hobbies e interesses </h2>
+            <img class="img_hobbies" src="./imagens/boneca.jpeg" alt="foto da Anne with an E em amigurumi">
+            <img class="img_hobbies" src="./imagens/cactos.jpeg"
+                alt="foto de cactos diversos, entre eles há cactos de crochê">
+            <img class="img_hobbies" src="./imagens/eu_estrelas.jpeg"
+                alt="foto de Isabella Vicente careca com estrelas pintadas">
 
             <h4> Tenho muitos hobbies, mas gosto mais desses três principais:
             </h4>
@@ -97,38 +83,34 @@
             <h5> Se quiser, pode acompanhar minha evolução por
                 <a href="https://www.linkedin.com/in/contrate-isabella-luiza-costa/"> aqui: </a>
             </h5>
-        </div>
+            <!-- link para linkedin -->
+        </section>
 
-        <section>
-            <form id="formulario" action="">
+        <section id="section3_formulario">
+            <form>
                 <fieldset>
-                    <h2 class="fale_comigo"> Fale comigo! </h2>
-                    <div class="nome">
-                        <label> Nome: </label>
-                        <input type="text">
-                        <button> Enviar </button>
-                    </div>
-                    <div class="email">
-                        <label> Email: </label>
-                        <input type="text">
-                        <button> Enviar </button>
-                    </div>
-                    <div class="mensagem">
-                        <label> Mensagem: </label>
-                        <textarea name="Mensagem"></textarea>
-                        <button> Enviar </button>
-                    </div>
+                    <!-- é a linha fina de separação -->
+                    <h2> Fale comigo! </h2>
+                    <label> Nome: </label>
+                    <!-- é o "título" da informação -->
+                    <input type="text">
+                    <!-- é a entrada pra info, de tipo texto -->
+                    <label> Email: </label>
+                    <input type="text">
+                    <label> Mensagem: </label>
+                    <textarea name="Mensagem"></textarea>
+                    <button> Enviar </button>
+                    <!-- pode usar button ou input com submit -->
                 </fieldset>
             </form>
-
         </section>
 
     </main>
 
     <footer>
-        Reservado os direitos autorais à Isabella Luiza Costa Vicente.
+        Reservado os direitos autorais à Isabella Luiza Costa Vicente ®.
     </footer>
-
+    <!-- é o que fica em baixo dos sites, infos de endereço, telefone, desenvolvido por quem etc -->
 </body>
 
 </html>
