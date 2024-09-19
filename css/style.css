@@ -168,6 +168,7 @@ main {
 .img_hobbies {
     border: 4px solid #65322a;
     border-radius: 40px;
+    align-itens: center; 
     margin: 20px;
     gap: 30px;
     width: 25%;
