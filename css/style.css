@@ -155,7 +155,7 @@ main {
 
 /* SECTION 2 ------------------------------------------------------------------------- */
 
-.section2_hobbies {
+.section2_hobbies, section {
 
     display: flex;
     flex-direction: column;
