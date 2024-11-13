@@ -1,5 +1,5 @@
-function enviarDados(event) {
-
+    document.getElementById("form").addEventListener("submit", function(event){
+        
     event.preventDefault();
 
     const formData = {
@@ -16,15 +16,13 @@ function enviarDados(event) {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(formData);
 
-      alert("Sua mensagem foi enviada");
     })
     .then(response => response.json())
     .then(data => {
         console.log('Sucesso:', data);
+      alert("Sua mensagem foi enviada");
     })
 
-
-}
-
+});
